@@ -15,6 +15,7 @@ if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
 else:
     print("Usage: portscan.py <target>")
+    sys.exit()
 
 # Add Banner
 print("-" * 50)
